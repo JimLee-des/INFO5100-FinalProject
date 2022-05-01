@@ -4,7 +4,7 @@ Instructor：Bugrara, Khaled.
 
 ## High Speed Rail Management System
 Group Member:  
-/br
+\br
 002144061 Chun Lee  
 002107185 Xinyue Zhang  
 002192150 Jiao He
