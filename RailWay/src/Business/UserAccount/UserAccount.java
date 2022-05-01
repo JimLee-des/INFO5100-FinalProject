@@ -18,6 +18,7 @@ public class UserAccount {
     private Role role;
     private WorkQueue workQueue;
 
+    
     public UserAccount() {
         workQueue = new WorkQueue();
     }

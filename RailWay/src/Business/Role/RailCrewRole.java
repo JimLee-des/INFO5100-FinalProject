@@ -13,6 +13,7 @@ import ui.Role.RailCrewWorkAreaJPanel;
 
 public class RailCrewRole extends Role {
     
+    // 继承role class
     public RailCrewRole(){
         this.type = RoleType.RailCrew;
     }
