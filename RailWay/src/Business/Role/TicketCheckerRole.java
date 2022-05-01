@@ -13,7 +13,6 @@ import ui.Role.CheckerWorkAreaJPanel;
 
 public class TicketCheckerRole extends Role{
     
-        // 继承role class
     public TicketCheckerRole(){
         this.type = RoleType.Checker;
     }

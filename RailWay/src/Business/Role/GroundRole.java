@@ -13,7 +13,6 @@ import ui.Role.GroundWorkAreaJPanel;
 
 public class GroundRole extends Role{
     
-        // 继承role class
     public GroundRole(){
         this.type = RoleType.Ground;
     }

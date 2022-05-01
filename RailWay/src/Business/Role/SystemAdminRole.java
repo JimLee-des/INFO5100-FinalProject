@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 public class SystemAdminRole extends Role{
 
-    // 继承role claass
+  
     public SystemAdminRole(){
         this.type = RoleType.System;
     }

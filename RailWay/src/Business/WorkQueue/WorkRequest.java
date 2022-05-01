@@ -17,7 +17,6 @@ public abstract class WorkRequest {
     private Date requestDate;
     private Date resolveDate;
     
-    
     public WorkRequest(){
         requestDate = new Date();
     }

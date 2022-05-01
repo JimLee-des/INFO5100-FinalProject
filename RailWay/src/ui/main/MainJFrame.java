@@ -203,8 +203,8 @@ public class MainJFrame extends javax.swing.JFrame {
         txtPwd.setText("");
 
         mainScreen.removeAll();
-//        JPanel blankJP = new JPanel();
-        mainScreen.add("blank", jLabel1);
+        JPanel blankJP = new JPanel();
+        mainScreen.add("blank", blankJP);
         CardLayout crdLyt = (CardLayout) mainScreen.getLayout();
         crdLyt.next(mainScreen);
         dB4OUtil.storeSystem(system);

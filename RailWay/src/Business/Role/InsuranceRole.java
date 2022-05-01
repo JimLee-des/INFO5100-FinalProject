@@ -13,7 +13,6 @@ import ui.Role.InsuranceWorkAreaJPanel;
 
 public class InsuranceRole extends Role{
     
-        // 继承role class
     public InsuranceRole(){
         this.type = RoleType.Insurance;
     }
