@@ -12,6 +12,7 @@ import javax.swing.JPanel;
 
 public class PassengerRole extends Role{
 
+        // 继承role class
     public PassengerRole(){
         this.type = RoleType.Passenger;
     }
