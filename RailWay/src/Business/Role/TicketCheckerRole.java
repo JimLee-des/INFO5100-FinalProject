@@ -8,7 +8,7 @@ package Business.Role;
 import Business.EcoSystem;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
-import ui.Role.TicketCheckerWorkAreaJPanel;
+import ui.Role.CheckerWorkAreaJPanel;
 
 
 public class TicketCheckerRole extends Role{
@@ -20,7 +20,7 @@ public class TicketCheckerRole extends Role{
     @Override
     public JPanel createWorkArea(JPanel mainScreen, UserAccount userAccount, EcoSystem system) {
         this.type = RoleType.Checker;
-        return new TicketCheckerWorkAreaJPanel(mainScreen, userAccount, system);
+        return new CheckerWorkAreaJPanel(mainScreen, userAccount, system);
     }
     
 }

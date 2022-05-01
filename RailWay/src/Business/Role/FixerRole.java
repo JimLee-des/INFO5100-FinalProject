@@ -8,7 +8,7 @@ package Business.Role;
 import Business.EcoSystem;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
-import ui.Role.AckemmaWorkAreaJPanel;
+import ui.Role.FixerWorkAreaJPanel;
 
 
 public class FixerRole extends Role{
@@ -20,6 +20,6 @@ public class FixerRole extends Role{
     @Override
     public JPanel createWorkArea(JPanel mainScreen, UserAccount userAccount, EcoSystem system) {
         this.type = Role.RoleType.Fixer;
-        return new AckemmaWorkAreaJPanel(mainScreen, userAccount, system);
+        return new FixerWorkAreaJPanel(mainScreen, userAccount, system);
     }
 }

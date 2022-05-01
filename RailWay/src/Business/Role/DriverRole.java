@@ -8,7 +8,7 @@ package Business.Role;
 import Business.EcoSystem;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
-import ui.Role.CommanderWorkAreaJPanel;
+import ui.Role.DriverWorkAreaJPanel;
 
 
 public class DriverRole extends Role{
@@ -20,7 +20,7 @@ public class DriverRole extends Role{
     @Override
     public JPanel createWorkArea(JPanel mainScreen, UserAccount userAccount, EcoSystem system) {
         this.type = Role.RoleType.Driver;
-        return new CommanderWorkAreaJPanel(mainScreen, userAccount, system);
+        return new DriverWorkAreaJPanel(mainScreen, userAccount, system);
     }
     
 }
