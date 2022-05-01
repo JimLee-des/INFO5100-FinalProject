@@ -1,5 +1,5 @@
 # INFO5100-FinalProject
-Course name: Application Engineering and Development (Spring 2022)
+Course name: Application Engineering and Development (Spring 2022)  
 Instructor：Bugrara, Khaled.
 
 ## High Speed Rail Management System
