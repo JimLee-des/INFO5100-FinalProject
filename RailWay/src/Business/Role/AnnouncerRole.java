@@ -14,6 +14,7 @@ import ui.Role.AnnouncerWorkAreaJPanel;
 
 public class AnnouncerRole extends Role{
     
+        // 继承role class
     public AnnouncerRole(){
         this.type = RoleType.Announcer;
     }
