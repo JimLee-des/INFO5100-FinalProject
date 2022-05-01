@@ -13,6 +13,7 @@ import ui.Role.FixerWorkAreaJPanel;
 
 public class FixerRole extends Role{
     
+        // 继承role class
     public FixerRole(){
         this.type = Role.RoleType.Fixer;
     }
