@@ -13,6 +13,7 @@ import ui.Role.DriverWorkAreaJPanel;
 
 public class DriverRole extends Role{
     
+        // 继承role class
     public DriverRole(){
         this.type = Role.RoleType.Driver;
     }
