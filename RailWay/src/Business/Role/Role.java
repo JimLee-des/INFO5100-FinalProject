@@ -12,7 +12,8 @@ import javax.swing.JPanel;
 
 
 public abstract class Role {
-    
+
+    // 枚举10个角色
     public enum RoleType{
         RailAdmin("RailAdmin"),
         Passenger("Passenger"),
