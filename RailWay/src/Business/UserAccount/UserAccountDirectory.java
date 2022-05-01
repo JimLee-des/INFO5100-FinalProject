@@ -48,7 +48,7 @@ public class UserAccountDirectory {
         userAccountList.add(userAccount);
         return userAccount;
     }
-
+    // 创建新的用户名 passenger
     public UserAccount createUserAccount(String name, String username, String password, Role role) {
         UserAccount userAccount = new UserAccount();
         userAccount.setName(name);
