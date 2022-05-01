@@ -68,7 +68,7 @@ public class UserAccountDirectory {
             }
         }
     }
-
+    // update 用户的信息
     public void updateUserAccount(UserAccount user, String username, String password) {
         for (int i = 0; i < userAccountList.size(); i++) {
             if (userAccountList.get(i).getName() == null) {
@@ -79,7 +79,7 @@ public class UserAccountDirectory {
             }
         }
     }
-
+    // update 用户的信息
     public void updateUserAccount(String name, UserAccount user, String username, String password) {
         for (int i = 0; i < userAccountList.size(); i++) {
             if (userAccountList.get(i).getName() == null) {
